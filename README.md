@@ -1,45 +1,60 @@
-# Hi, I’m Theertha
+# Hi, I’m Theertha 👋
 
-I build systems that measure when AI agents can act autonomously—and when human
-control should return.
+**Product leader and former co-founder, building enterprise products from the first customer problem to revenue.**
 
-My focus is **AI agent reliability, evaluation, and governance**. I’m interested in
-the product decisions behind autonomy: what evidence is enough, which mistakes
-must block an action, and how operators regain control when performance degrades.
+I’ve built and shipped a revenue-generating AI product from a blank page, owning
+work across product strategy, architecture, delivery, and commercialization. My
+work connects customer needs and business priorities with the technical decisions
+and cross-functional execution required to bring a product to market.
 
-## Featured work
+I care about the whole product: why someone buys it, how it fits their workflow,
+what it takes to deliver it, and whether it keeps creating value after launch.
+Enterprise products have to earn adoption, work within operational constraints,
+and give customers reasons to keep trusting them.
 
-### [autonomy-ladder](https://github.com/Reddytheer/autonomy-ladder)
+## How I lead
 
-A working reference implementation of earned autonomy. An agent produces work;
-a separate controller grants permissions from recorded evidence and revokes them
-when quality or simulated outcomes deteriorate.
+- **Start with the customer and the business.** Turn an ambiguous problem into a
+  clear product direction, a focused scope, and a case for why it is worth building.
+- **Connect strategy to delivery.** Coordinate across functions, resolve dependencies,
+  and make the tradeoffs between customer value, technical feasibility, and time explicit.
+- **Stay close to the implementation.** Work through architecture and evaluation
+  decisions so product commitments reflect what the system can actually deliver.
+- **Own what happens after launch.** Treat adoption, reliability, customer feedback,
+  and commercial outcomes as part of the same responsibility.
 
-- Statistical promotion gates, immediate demotion, and an auditable trust ledger.
-- Independent evaluation, recorded judge fixtures, and documented calibration limits.
-- An operator console and reproducible checks that run without an API key.
+## What you’ll find here
 
-The example uses a fictional outdoor-gear brand and synthetic data. It demonstrates
-the control loop without real customer records or real email sending.
+This GitHub is where I make product decisions tangible through working systems,
+evaluations, and written tradeoffs. My current public projects explore a question
+that matters when bringing AI into enterprise workflows: **what evidence should
+we require before a system can act, and when should control return to a person?**
 
-[Explore the project](https://github.com/Reddytheer/autonomy-ladder#readme) ·
-[Read the design decisions](https://github.com/Reddytheer/autonomy-ladder/tree/main/docs/adr) ·
-[Inspect the evaluation](https://github.com/Reddytheer/autonomy-ladder/blob/main/docs/evaluation.md)
+### [autonomy-ladder](https://github.com/Reddytheer/autonomy-ladder) · Published
 
-## How I approach these systems
+A working reference implementation of graduated AI autonomy. A separate controller
+grants permissions based on measured performance and revokes them when quality or
+simulated outcomes deteriorate. It includes an operator console, a trust ledger,
+and evaluation checks that run without an API key.
 
-**Evidence before permissions.** A convincing output is only one observation.
-Autonomy needs a record of performance and clear limits on what can happen.
+The product decisions are as important as the code: how much evidence is enough,
+which failures block action, and how human review fits into the workflow.
 
-**Evaluate the evaluator.** Judge agreement, failure examples, and labeling limits
-belong beside the result, where someone making a decision can see them.
+[Design decisions](https://github.com/Reddytheer/autonomy-ladder/tree/main/docs/adr) ·
+[Evaluation and limitations](https://github.com/Reddytheer/autonomy-ladder/blob/main/docs/evaluation.md) ·
+[Economics and risk](https://github.com/Reddytheer/autonomy-ladder/blob/main/docs/economics.md)
 
-**Design the recovery path.** Human review, revocation, and post-action feedback
-are part of the product from the start.
+### reliability-harness · Planned
 
-## What I’m exploring next
+An evaluation instrument for repeated performance across longer, dependent tasks,
+using a synthetic KYC/AML example. The goal is to connect reliability evidence to
+an explicit decision about autonomy. Implementation and results are not yet published.
 
-**reliability-harness — planned.** Repeated-trial evaluation across dependent tasks,
-with a synthetic KYC/AML example. The question is how consistency changes as work
-gets longer, and what that evidence can support. Implementation and results are
-not yet published.
+These public projects use synthetic data and illustrate a part of my broader
+product practice: turning uncertain capabilities into products people can adopt,
+operate, and trust.
+
+---
+
+Open to conversations about product leadership, enterprise AI, and building products
+from early discovery through delivery, adoption, and revenue.
