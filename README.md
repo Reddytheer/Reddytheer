@@ -1,5 +1,7 @@
 # Hi, I’m Theertha 👋
 
+[Connect on LinkedIn](https://in.linkedin.com/in/theertha-y)
+
 **Product leader and former co-founder, building enterprise products from the first customer problem to revenue.**
 
 I’ve built and shipped a revenue-generating AI product from a blank page, owning
@@ -44,15 +46,62 @@ which failures block action, and how human review fits into the workflow.
 [Evaluation and limitations](https://github.com/Reddytheer/autonomy-ladder/blob/main/docs/evaluation.md) ·
 [Economics and risk](https://github.com/Reddytheer/autonomy-ladder/blob/main/docs/economics.md)
 
-### reliability-harness · Planned
+## Where I’m taking the portfolio
 
-An evaluation instrument for repeated performance across longer, dependent tasks,
-using a synthetic KYC/AML example. The goal is to connect reliability evidence to
-an explicit decision about autonomy. Implementation and results are not yet published.
+**Trust in an agent should be measured, tiered, and revocable.** This is a focused
+research and product direction within my broader enterprise product work. The
+sequence moves from permissions to evidence, human interaction, and transactions
+between organizations. One project is published; the next three are planned.
 
-These public projects use synthetic data and illustrate a part of my broader
-product practice: turning uncertain capabilities into products people can adopt,
-operate, and trust.
+| Order | Project | Product question | Status |
+|---|---|---|---|
+| 1 | [autonomy-ladder](https://github.com/Reddytheer/autonomy-ladder) | What may the agent do, and when should permission be withdrawn? | Published |
+| 2 | reliability-harness | What evidence is sufficient to grant that permission? | Specified; next build |
+| 3 | Calibrated ask-vs-act | When should the system proceed, ask for clarification, or defer to a person? | Planned |
+| 4 | Agent-to-agent transactions and verifiable credentials | How can organizations verify evidence and enforce agreed limits when their agents transact? | Planned |
+
+### Next: reliability-harness — evidence for the decision
+
+Repeated-trial evaluation across task horizons, demonstrated on synthetic banking
+KYC/AML triage: from single-alert disposition to entity investigation and a SAR
+recommendation. The planned output combines consistency, partial progress, failure
+traces, and uncertainty with a recommendation about autonomy for each task type.
+Insufficient evidence should be a visible result. The experiment should report
+whether reliability declines, rather than assume that it must.
+
+### Then: calibrated ask-vs-act — useful human involvement
+
+An interaction layer that chooses between acting within granted permissions,
+asking for missing information, and deferring to human judgment. The approach will
+combine calibrated confidence with the consequences of an error and the cost of
+interrupting a person. Evaluation will measure both harmful actions and unnecessary
+escalations. Confidence never overrides a hard permission boundary.
+
+### Finally: agent-to-agent transactions — shared rules and portable evidence
+
+A synthetic transaction between agents representing different organizations, with
+explicit authority, negotiated terms, and an audit trail of offers, acceptances,
+and refusals. Verifiable performance credentials would carry the evaluation scope,
+model version, issuer, validity period, and revocation status alongside the results.
+
+The proposed on-chain component would enforce agreed transaction limits and record
+policy versions and credential commitments, with sensitive data kept off-chain.
+The design will compare this with signed records and a conventional shared service:
+what additional assurance justifies the cost and complexity? Verification must
+distinguish an authentic record from a trustworthy evaluation; preventing omitted
+runs also requires a defined reporting protocol.
+
+### Later: cost-quality routing and unit economics
+
+An extension that connects model selection, review effort, latency, and failure
+cost to cost per successful workflow. I would add this after the core evaluation
+and interaction work, when quality and human effort can be measured meaningfully.
+
+The intended progression is concrete: **set permissions → measure readiness →
+design human involvement → carry evidence across organizational boundaries.** Each
+project should make a product decision inspectable through a working demonstration,
+measured outcomes, and explicit limitations. Planned projects have no published
+implementation or results yet.
 
 ---
 
