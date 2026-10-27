@@ -56,9 +56,9 @@ between organizations. One project is published; the next three are planned.
 | Order | Project | Product question | Status |
 |---|---|---|---|
 | 1 | [autonomy-ladder](https://github.com/Reddytheer/autonomy-ladder) | What may the agent do, and when should permission be withdrawn? | Published |
-| 2 | reliability-harness | What evidence is sufficient to grant that permission? | Specified; next build |
-| 3 | Calibrated ask-vs-act | When should the system proceed, ask for clarification, or defer to a person? | Planned |
-| 4 | Agent-to-agent transactions and verifiable credentials | How can organizations verify evidence and enforce agreed limits when their agents transact? | Planned |
+| 2 | reliability-harness | What evidence is sufficient to grant that permission? | published |
+| 3 | Calibrated ask-vs-act | When should the system proceed, ask for clarification, or defer to a person? | published |
+| 4 | Agent-to-agent transactions and verifiable credentials | How can organizations verify evidence and enforce agreed limits when their agents transact? | Published |
 
 ### Next: reliability-harness — evidence for the decision
 
